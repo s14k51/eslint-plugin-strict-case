@@ -7,7 +7,7 @@ module.exports = function strictClassCase(context) {
       if (!/^[A-Z]/.test(name)) {
         context.report({
           node: idNode,
-          message: 'Class names must start with an uppercase letter',
+          message: `Identifier '${name}' must start with an uppercase letter`,
         });
       }
     },

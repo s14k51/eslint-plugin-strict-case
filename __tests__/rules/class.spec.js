@@ -13,13 +13,13 @@ ruleTester.run('strict-class-case', rule, {
     {
       code: 'class h { }',
       errors: [
-        { message: 'Class names must start with an uppercase letter' },
+        { message: "Identifier 'h' must start with an uppercase letter" },
       ],
     },
     {
       code: 'class _ { }',
       errors: [
-        { message: 'Class names must start with an uppercase letter' },
+        { message: "Identifier '_' must start with an uppercase letter" },
       ],
     },
   ],
