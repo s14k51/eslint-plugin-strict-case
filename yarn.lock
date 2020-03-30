@@ -1244,15 +1244,16 @@ eslint-config-airbnb-base@^14.1.0:
     object.assign "^4.1.0"
     object.entries "^1.1.1"
 
-eslint-config-ruby@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-ruby/-/eslint-config-ruby-1.3.0.tgz#124c686d1d3800876922359caa501e0c3634109f"
-  integrity sha512-t8gm/mO/Sur5g1x9R23Ar443kChAop8hWHdSHMeMbcIKUPmRrq7jyoOJhcjZNEnOoyC43bDmVkxzwehNBxWiFw==
+eslint-config-ruby@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-ruby/-/eslint-config-ruby-1.4.0.tgz#0a3b231c6829db98273bb2b9f7addbde582b4b47"
+  integrity sha512-wcBm7cuzU3BmwlB4gOHZC/GKxKKAdlLsMjFR0bqshw/EuOWi/rCTfy0mk1tZX6mpejqigo0ZWGOVolyzaENenQ==
   dependencies:
     eslint-config-airbnb-base "^14.1.0"
     eslint-plugin-import "^2.20.1"
     eslint-plugin-jest "^23.8.2"
     eslint-plugin-sonarjs "^0.5.0"
+    eslint-plugin-strict-case "^1.0.0"
     eslint-plugin-unicorn "^17.2.0"
     eslint-plugin-you-dont-need-lodash-underscore "^6.10.0"
 
@@ -1301,6 +1302,11 @@ eslint-plugin-sonarjs@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.5.0.tgz#ce17b2daba65a874c2862213a9e38e8986ad7d7d"
   integrity sha512-XW5MnzlRjhXpIdbULC/qAdJYHWw3rRLws/DyawdlPU/IdVr9AmRK1r2LaCvabwKOAW2XYYSo3kDX58E4MrB7PQ==
+
+eslint-plugin-strict-case@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-strict-case/-/eslint-plugin-strict-case-1.0.0.tgz#bf68960cf40d297aedacbef1986651c089aef2e1"
+  integrity sha512-6o2cbTAWjdzHkG8KEtleYjz2FhBkonxaZjwNhvZPpM17hlh/HswP78lG2LSRrifa2x2FuGJ47B43jDoh+P27pA==
 
 eslint-plugin-unicorn@^17.2.0:
   version "17.2.0"
