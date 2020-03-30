@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-strict-case",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Enforce case for variable names",
   "keywords": [
     "eslint",
@@ -8,7 +8,8 @@
     "eslint-plugin"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "rules"
   ],
   "homepage": "https://github.com/s14k51/eslint-plugin-strict-case",
   "bugs": {
