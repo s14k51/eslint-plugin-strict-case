@@ -1,0 +1,34 @@
+{
+  "name": "eslint-plugin-strict-case",
+  "version": "1.0.0",
+  "description": "Enforce case for variable names",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "homepage": "https://github.com/s14k51/eslint-plugin-strict-case",
+  "bugs": {
+    "url": "https://github.com/s14k51/eslint-plugin-strict-case/issues"
+  },
+  "license": "MIT",
+  "author": "s14k51 <s14k51@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "eslint": "^6.8.0",
+    "eslint-config-ruby": "1.3.0",
+    "jest": "^25.2.4"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
